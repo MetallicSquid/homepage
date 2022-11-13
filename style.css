@@ -40,6 +40,28 @@ code {
     justify-content: space-between;
 }
 
+.github-icon {
+    background: url("static/github_unselected.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.github-icon:hover {
+    background: url("static/github_selected.png") no-repeat;
+}
+
+.linkedin-icon {
+    background: url("static/linkedin_unselected.jpg") no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.linkedin-icon:hover {
+    background: url("static/linkedin_selected.jpg") no-repeat;
+}
+
 /*Body Specifics*/
 .body-content {
     padding-left: 20px;
