@@ -40,24 +40,18 @@ code {
     justify-content: space-between;
 }
 
-.github-icon {
+.icon {
     width: 32px;
     height: 32px;
     fill: darkgrey;
 }
 
-.github-icon:hover {
+.icon:hover {
     fill: black;
 }
 
-.linkedin-icon {
-    width: 32px;
-    height: 32px;
-    fill: darkgrey;
-}
-
-.linkedin-icon:hover {
-    fill: black;
+.icon-link {
+    text-decoration: none;
 }
 
 /*Body Specifics*/
