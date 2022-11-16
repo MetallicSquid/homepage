@@ -115,3 +115,62 @@ a.project-link {
     width: 100%;
     object-fit: cover;
 }
+
+/*Dark Theme*/
+@media (prefers-color-scheme: dark) {
+    body {
+        background: black;
+        color: white;
+    }
+
+    a {
+        color: cornflowerblue;
+    }
+
+    a:visited {
+        color: darkmagenta;
+    }
+
+    a.project-link {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .icon {
+        width: 32px;
+        height: 32px;
+        fill: dimgrey;
+    }
+
+    .icon:hover {
+        fill: white;
+    }
+
+    .project {
+        border: 2px solid dimgray;
+    }
+
+   .project:hover {
+       border: 2px solid white;
+   }
+
+   .ul-row {
+        border-bottom: 2px solid white;
+    }
+
+    .bordered-column {
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+    }
+
+    .ul-bordered-column {
+        border-bottom: 2px solid white;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+    }
+
+    hr {
+        color: lightgrey;
+    }
+}
