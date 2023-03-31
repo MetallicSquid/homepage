@@ -6,6 +6,8 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+    color: #454545;
 }
 
 code {
@@ -47,7 +49,7 @@ code {
 }
 
 .icon:hover {
-    fill: black;
+    fill: #454545;
 }
 
 .icon-link {
@@ -64,22 +66,22 @@ table {
 }
 
 td {
-   padding: 5px;
+    padding: 5px;
 }
 
 .ul-row {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #454545;
 }
 
 .bordered-column {
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-left: 2px solid #454545;
+    border-right: 2px solid #454545;
 }
 
 .ul-bordered-column {
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-bottom: 2px solid #454545;
+    border-left: 2px solid #454545;
+    border-right: 2px solid #454545;
 }
 
 .projects {
@@ -102,11 +104,11 @@ td {
 }
 
 .project:hover {
-    border: 2px solid black;
+    border: 2px solid #454545;
 }
 
 a.project-link {
-    color: black;
+    color: #454545;
     text-decoration: none;
     padding: 10px;
 }
@@ -119,7 +121,7 @@ a.project-link {
 /*Dark Theme*/
 @media (prefers-color-scheme: dark) {
     body {
-        background: black;
+        background: #353535;
         color: white;
     }
 
@@ -128,7 +130,7 @@ a.project-link {
     }
 
     a:visited {
-        color: darkmagenta;
+        color: magenta;
     }
 
     a.project-link {
