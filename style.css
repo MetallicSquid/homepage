@@ -60,6 +60,11 @@ code {
 .body-content {
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+li {
+    padding-bottom: 5px;
 }
 
 table {
@@ -83,6 +88,34 @@ td {
     border-bottom: 2px solid #454545;
     border-left: 2px solid #454545;
     border-right: 2px solid #454545;
+}
+
+.fully-bordered {
+    border: 2px solid #454545;
+}
+
+.mostly-bordered-left {
+    border-top: 2px solid #454545;
+    border-right: 2px solid #454545;
+    border-bottom: 2px solid #454545;
+}
+
+.mostly-bordered-top {
+    border-left: 2px solid #454545;
+    border-right: 2px solid #454545;
+    border-bottom: 2px solid #454545;
+}
+
+.mostly-bordered-top-left {
+    border-right: 2px solid #454545;
+    border-bottom: 2px solid #454545;
+}
+
+.bottom-caption {
+    caption-side: bottom;
+    font-size: medium;
+    margin-top: 5px;
+    /*text-align: left;*/
 }
 
 .projects {
@@ -160,25 +193,23 @@ input[type='checkbox'] {
     max-height: 100%;
 }
 
-.passive-container {
+.active-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.passive-year {
-    display: block;
-    padding: 0px 10px 10px 10px;
+.activity-category {
     margin-left: 10px;
-    padding-top: 10px;
+    padding: 10px;
 }
 
-.passive-month {
+.active-year {
     padding: 10px;
     margin-left: 20px;
 }
 
-.passive-entries {
+.activities {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -186,16 +217,25 @@ input[type='checkbox'] {
     margin-left: 20px;
 }
 
-.passive-entry {
-    padding: 5px;
-    margin: 5px;
+.activity {
+    font-family: monospace;
+    font-size: large;
+    padding: 3px;
+    margin: 2px;
     text-align: center;
     width: fit-content;
     border: 2px solid darkgrey;
 }
-.passive-entry:hover {
-    border: 3px solid #454545;
-    margin: 4px;
+
+.activity:hover {
+    border: 3px solid #454545 !important;
+    margin: 1px !important;
+}
+
+a.activity-link {
+    color: #454545;
+    text-decoration: none;
+    padding: 10px;
 }
 
 /*Dark Theme*/
