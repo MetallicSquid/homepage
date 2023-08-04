@@ -322,7 +322,7 @@ a.activity-link {
     }
 
     .activity:hover {
-        border: 3px solid dimgrey !important;
+        border: 3px solid white !important;
         margin: 1px !important;
     }
 
