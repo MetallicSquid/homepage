@@ -295,4 +295,40 @@ a.activity-link {
     hr {
         color: lightgrey;
     }
+
+    .fully-bordered {
+        border: 2px solid white;
+    }
+
+    .mostly-bordered-left {
+        border-top: 2px solid white;
+        border-right: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+
+    .mostly-bordered-top {
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+
+    .mostly-bordered-top-left {
+        border-right: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+
+    .activity {
+        border: 2px solid dimgrey;
+    }
+
+    .activity:hover {
+        border: 3px solid dimgrey !important;
+        margin: 1px !important;
+    }
+
+    a.activity-link {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
 }
