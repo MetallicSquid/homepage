@@ -238,6 +238,12 @@ a.activity-link {
     padding: 10px;
 }
 
+canvas {
+    padding: 5px;
+    background-color: white;
+    border-radius: 30px;
+}
+
 /*Dark Theme*/
 @media (prefers-color-scheme: dark) {
     body {
