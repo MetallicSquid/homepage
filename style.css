@@ -242,6 +242,7 @@ canvas {
     padding: 5px;
     background-color: white;
     border-radius: 30px;
+    border: 2px solid #454545;
 }
 
 /*Dark Theme*/
@@ -336,5 +337,9 @@ canvas {
         color: white;
         text-decoration: none;
         padding: 10px;
+    }
+
+    canvas {
+        border-width: 0;
     }
 }
