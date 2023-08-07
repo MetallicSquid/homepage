@@ -138,7 +138,8 @@ td {
 }
 
 .project:hover {
-    border: 2px solid #454545;
+    border: 3px solid #454545;
+    padding: 9px;
 }
 
 a.project-link {
