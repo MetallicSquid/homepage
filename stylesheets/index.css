@@ -1,0 +1,51 @@
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+    border: 2px solid darkgray;
+}
+
+.project:hover {
+    border: 3px solid #454545;
+    padding: 9px;
+}
+
+a.project-link {
+    color: #454545;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.project-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+/*Dark Theme*/
+@media (prefers-color-scheme: dark) {
+    a.project-link {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .project {
+        border: 2px solid dimgray;
+    }
+
+    .project:hover {
+       border: 2px solid white;
+    }
+}
