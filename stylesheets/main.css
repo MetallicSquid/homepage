@@ -6,7 +6,7 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 18px;
+    font-size: 22px;
     color: #454545;
 }
 
@@ -80,12 +80,6 @@ li {
 
     a:visited {
         color: magenta;
-    }
-
-    a.project-link {
-        color: white;
-        text-decoration: none;
-        padding: 10px;
     }
 
     .icon {
